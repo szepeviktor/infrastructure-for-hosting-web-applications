@@ -52,14 +52,14 @@ Build on well-tested packages and specialized providers.
 - Videos
 - Maps
 - HTML widgets
-- Advertisment
+- Advertisement
 - Visitor tracking
 - Payment gateway
 - Email address verification
 - Authentication
 - Error tracking
 
-Run production enviroments without humans.
-Every problem should be solvable with CI and anonimized staging enviroments.
+Run production environments without humans.
+Every problem should be solvable with CI and anonimized staging environments.
 
-💡 Recognize your tech debt when you are manually working on a production enviroment.
+💡 Recognize your tech debt when you are manually working on a production environment.
