@@ -37,7 +37,7 @@ jobs:
         -
             name: "Search for misspellings"
             run: |
-                "$(python -m site --user-base)/bin/codespell"
+                "$(python -m site --user-base)/bin/codespell" --skip=./.git --check-hidden --check-filenames --builtin=clear,rare,informal,usage,code,names
 
     editorconfig:
         name: "EditorConfig"
