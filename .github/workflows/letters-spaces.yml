@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow
 
-name: "Spelling"
+name: "Letters and spaces"
 
 on:  # yamllint disable-line rule:truthy
     push:
@@ -38,3 +38,17 @@ jobs:
             name: "Search for misspellings"
             run: |
                 "$(python -m site --user-base)/bin/codespell"
+
+    editorconfig:
+        name: "EditorConfig"
+        runs-on: "ubuntu-22.04"
+        steps:
+        -
+            name: "Checkout repository"
+            uses: "actions/checkout@v3"
+        -
+            name: "Check EditorConfig configuration"
+            run: "test -f .editorconfig"
+        -
+            name: "Check adherence to EditorConfig"
+            uses: "greut/eclint-action@v0"
