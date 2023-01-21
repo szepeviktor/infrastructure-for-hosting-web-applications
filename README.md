@@ -70,3 +70,5 @@ and anonimized staging environments.
 
 💡 Recognize your tech debt when you are manually working
 on a production environment.
+
+Only 1 _Tech Debt Day_ per month can tip the scales from stress to joy.
