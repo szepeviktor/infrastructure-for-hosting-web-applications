@@ -4,7 +4,7 @@ This document is the result of several hundreds of real-life incidents.
 `#SaaS`
 
 My policy on providing services is to **use specialized service providers**,
-not popular ones.
+not popular ones, never free ones.
 
 ## WWW
 
