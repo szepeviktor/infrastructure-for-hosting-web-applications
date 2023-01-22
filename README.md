@@ -3,7 +3,7 @@
 This document is the result of several hundreds of real-life incidents.
 `#SaaS`
 
-My policy on providing services is to **use specialized service provides**,
+My policy on providing services is to **use specialized service providers**,
 not popular ones.
 
 ## WWW
@@ -35,7 +35,7 @@ Many so-called cloud providers only virtualize a single server.
 ## OS, middleware, runtime
 
 1. Build on Debian
-2. Know each software on your server, uninstall all others
+2. Know each software on your server, uninstall all unused
 3. Keep every file on your server under control (e.g. packages, git)
 4. Monitor the kernel, the filesystem and every server software
     with functional tests, not just "pings"
@@ -50,7 +50,7 @@ Many so-called cloud providers only virtualize a single server.
 ## The Web Application
 
 Write as little code as it is possible.
-Build on well-tested packages and specialized providers.
+Build on well-tested packages and **specialized** providers.
 
 - Integrated customer relations
 - Fonts
@@ -61,6 +61,7 @@ Build on well-tested packages and specialized providers.
 - Visitor tracking
 - Payment gateway
 - Email address verification
+- SMS gateway
 - Authentication
 - Error tracking
 
