@@ -73,3 +73,29 @@ and anonimized staging environments.
 on a production environment.
 
 Only 1 _Tech Debt Day_ per month can tip the scales from stress to joy.
+
+## Cooperating with providers, software authors
+
+Your application depends on others!
+
+### Analyze your service providers
+
+- Target audience
+- Specialized provider vs. populist provider (quality vs. quantity)
+- Funds
+- Talk to CEO and employees
+- Discovery expertise by reading their blog, asking for a demo
+- Attitude and tranparency
+- Usability
+- Infrastructure
+- Service providers
+- Integrations and API-s
+- Price-value ratio
+
+### Know software authors you depend on
+
+- Attitude
+- Response to bug reports
+- Amount of unit tests
+- Release frequency
+- Amount of QA tools in CI
