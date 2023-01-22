@@ -96,6 +96,7 @@ Your application depends on others!
 
 - Attitude
 - Response to bug reports
-- Amount of unit tests
+- Openness to contributors
+- Coverage
 - Release frequency
-- Amount of QA tools in CI
+- QA tools in CI
