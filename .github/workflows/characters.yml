@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow
 
-name: "Letters and spaces"
+name: "Characters"
 
 on:  # yamllint disable-line rule:truthy
     push:
