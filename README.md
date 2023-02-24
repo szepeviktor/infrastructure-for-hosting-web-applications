@@ -1,5 +1,8 @@
 # Specialized instrastructure for web applications
 
+[![hu](https://img.shields.io/badge/nyelv-magyar%20%F0%9F%87%AD%F0%9F%87%BA-white)](README.hu.md)
+[![en](https://img.shields.io/badge/lang-english%20%F0%9F%87%AC%F0%9F%87%A7-white)](README.md)
+
 This document is the result of several hundreds of real-life incidents.
 `#SaaS`
 
@@ -24,7 +27,7 @@ so we need to connect to the Internet and provide web services.
 ## Premium server provider
 
 "Cloud" really means virtualization **and** server clusters.
-Many so-called cloud providers only virtualize a single server.
+Many so-called cloud providers only virtualize a single physical server.
 
 1. Software defined **and** redundant network
 2. Software defined **and** redundant storage
