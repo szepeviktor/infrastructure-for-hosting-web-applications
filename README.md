@@ -1,4 +1,4 @@
-# Specialized instrastructure for web applications
+# Specialized infrastructure for web applications
 
 [![hu](https://img.shields.io/badge/nyelv-magyar%20%F0%9F%87%AD%F0%9F%87%BA-white)](README.hu.md)
 [![en](https://img.shields.io/badge/lang-english%20%F0%9F%87%AC%F0%9F%87%A7-white)](README.md)
@@ -11,7 +11,7 @@ not popular ones, never free ones.
 
 ## WWW
 
-🪨 The World Wide Web is part the Internet,
+🪨 The World Wide Web is part of the Internet,
 so we need to connect to the Internet and provide web services.
 
 ## Infrastructure
@@ -33,12 +33,12 @@ Many so-called cloud providers only virtualize a single physical server.
 2. Software defined **and** redundant storage
 3. Software defined **and** redundant servers
     (CPU+memory) 👈🏻 this is very-very hard
-4. Thin thus performant virtualization layer
+4. Thin, thus performant virtualization layer
 
 ## OS, middleware, runtime
 
 1. Build on Debian
-2. Know each software on your server, uninstall all unused
+2. Know each software on your server; uninstall all unused
 3. Keep every file on your server under control (e.g. packages, git)
 4. Monitor the kernel, the filesystem and every server software
     with functional tests, not just "pings"
@@ -70,7 +70,7 @@ Build on well-tested packages and **specialized** providers.
 
 Run production environments without humans.
 Every problem should be solvable with CI
-and anonimized staging environments.
+and anonymized staging environments.
 
 💡 Recognize your tech debt when you are manually working
 on a production environment.
@@ -86,16 +86,16 @@ Your application depends on others!
 - Target audience
 - Specialized provider vs. populist provider (quality vs. quantity)
 - Funds
-- Talk to CEO and employees
+- Talk to the CEO and employees
 - Discovery expertise by reading their blog, asking for a demo
-- Attitude and tranparency
+- Attitude and transparency
 - Usability
 - Infrastructure
 - Service providers
 - Integrations and API-s
 - Price-value ratio
 
-### Know software authors you depend on
+### Know the software authors you depend on
 
 - Attitude
 - Response to bug reports

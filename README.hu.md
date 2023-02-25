@@ -3,7 +3,7 @@
 [![en](https://img.shields.io/badge/lang-english%20%F0%9F%87%AC%F0%9F%87%A7-white)](README.md)
 [![hu](https://img.shields.io/badge/nyelv-magyar%20%F0%9F%87%AD%F0%9F%87%BA-white)](README.hu.md)
 
-Ez a dokumentum többszáz életből vett incidens eredménye.
+Ez a dokumentum több száz életből vett incidens eredménye.
 `#SaaS`
 
 Szolgáltatás nyújtásnál az az irányelvem,
@@ -53,7 +53,7 @@ Sok úgynevezett felhő szolgáltató csak egy fizikai szervert virtualizál.
 ## A webes alkalmazás
 
 Írjunk a lehető legkevesebb forráskódot.
-Alaposan tesztelet csomagokra és **specializált** szolgáltatókra építsünk.
+Alaposan tesztelt csomagokra és **specializált** szolgáltatókra építsünk.
 
 - Integrált ügyfélkapcsolat
 - Betűtípusok
@@ -75,7 +75,7 @@ Minden problémát meg kéne tudni oldani CI-jal
 :bulb: Ismerje fel a technikai adósságát,
 amikor kézzel kell dolgozni az éles környezetben.
 
-Havi egyetlen egy _Technikai Adósság Nap_ a stresszt örömre változtatja.
+Havi egyetlen egy _Technikai Adósság Nap_ a stresszt örömmé változtatja.
 
 ## Cooperating with providers, software authors
 
