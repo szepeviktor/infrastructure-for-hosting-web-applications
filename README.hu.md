@@ -77,29 +77,29 @@ amikor kézzel kell dolgozni az éles környezetben.
 
 Havi egyetlen egy _Technikai Adósság Nap_ a stresszt örömmé változtatja.
 
-## Cooperating with providers, software authors
+## Együttműködés szolgáltatókkal, szoftver készítőkkel
 
-Your application depends on others!
+Az alkalmazása függ másoktól!
 
-### Analyze your service providers
+### Vizsgálja meg a szolgáltatóit
 
-- Target audience
-- Specialized provider vs. populist provider (quality vs. quantity)
-- Funds
-- Talk to CEO and employees
-- Discovery expertise by reading their blog, asking for a demo
-- Attitude and tranparency
-- Usability
-- Infrastructure
-- Service providers
-- Integrations and API-s
-- Price-value ratio
+- Célközönség
+- Specializált szolgáltató kontra populista szolgáltató (minőség kontra mennyiség)
+- Tőke
+- Beszéljen a CEO-val és az alkalmazottakkal
+- Derítse fel a tapasztaltságukat a blogjukból, egy demó keretén belül
+- Hozzáállás és átláthatóság
+- Használhatóság
+- Infrastruktúra
+- A szolgáltató szolgáltatói
+- Integráció és API-k
+- Ár-érték arány
 
-### Know software authors you depend on
+### Ismerje a szoftver készítőket, akiktől függ
 
-- Attitude
-- Response to bug reports
-- Openness to contributors
-- Coverage
-- Release frequency
-- QA tools in CI
+- Hozzáállás
+- Válasz a hibajegyekre
+- Nyitottság a közreműködők felé
+- Teszt lefedettség (coverage)
+- Kiadások (release) gyakorisága
+- Minőségbiztosítási eszközök CI-ban
