@@ -37,7 +37,7 @@ Many so-called cloud providers only virtualize a single physical server.
 
 ## OS, middleware, runtime
 
-1. Build on Debian
+1. Build on Debian GNU/Linux
 2. Know each software on your server; uninstall all unused
 3. Keep every file on your server under control (e.g. packages, git)
 4. Monitor the kernel, the filesystem and every server software

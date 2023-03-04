@@ -37,7 +37,7 @@ Sok úgynevezett felhő szolgáltató csak egy fizikai szervert virtualizál.
 
 ## Operációs rendszer, middleware, futtatókörnyezet
 
-1. Debian alapon
+1. Debian GNU/Linux alapon
 2. Minden egyes szerver szoftver ismerete, a használaton kívüliek eltávolítása
 3. A szerveren lévő minden egyes fájl ellenőrzés alatt tartása (pl. csomagok, git)
 4. Kernel, fájlrendszer és minden egyes szerver szoftver
