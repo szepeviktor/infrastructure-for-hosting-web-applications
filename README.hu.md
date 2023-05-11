@@ -25,7 +25,7 @@ tehát az Internethez kell kapcsolódnunk, és webes szolgáltatásokat nyújtan
 - Tranzakciós email szolgáltató
 - Tárterület szolgáltató biztonsági mentéshez
 
-## Prémium szerver szolgáltató
+## Enterprise ready szerver szolgáltató
 
 A "felhő" valójában virtualizációt **és** szerver klasztereket jelent.
 Sok úgynevezett felhő szolgáltató csak egy fizikai szervert virtualizál.

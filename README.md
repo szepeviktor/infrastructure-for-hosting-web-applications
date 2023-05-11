@@ -25,7 +25,7 @@ so we need to connect to the Internet and provide web services.
 - Transactional email provider
 - Storage provider for backup
 
-## Premium server provider
+## Enterprise ready server provider
 
 "Cloud" really means virtualization **and** server clusters.
 Many so-called cloud providers only virtualize a single physical server.
