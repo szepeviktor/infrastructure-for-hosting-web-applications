@@ -19,36 +19,22 @@ concurrency:
 jobs:
     spelling:
         name: "Spelling"
-        runs-on: "ubuntu-22.04"
+        runs-on: "ubuntu-24.04"
         steps:
         -
             name: "Checkout repository"
-            uses: "actions/checkout@v3"
-        -
-            name: "Cache pip"
-            uses: "actions/cache@v3"
-            with:
-                path: "~/.cache/pip"
-                key: "${{ runner.os }}-pip-codespell"
-        -
-            name: "Install codespell"
-            run: |
-                pip install --user 'codespell>=2.2'
+            uses: "actions/checkout@v4"
         -
             name: "Search for misspellings"
-            run: |
-                "$(python -m site --user-base)/bin/codespell" \
-                    --skip=./.git --check-hidden --check-filenames \
-                    --builtin=clear,rare,informal,usage,code,names \
-                    --ignore-words-list=master
+            uses: "crate-ci/typos@master"
 
     editorconfig:
         name: "EditorConfig"
-        runs-on: "ubuntu-22.04"
+        runs-on: "ubuntu-24.04"
         steps:
         -
             name: "Checkout repository"
-            uses: "actions/checkout@v3"
+            uses: "actions/checkout@v4"
         -
             name: "Check EditorConfig configuration"
             run: "test -f .editorconfig"
